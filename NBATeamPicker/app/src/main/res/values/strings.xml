@@ -1,0 +1,523 @@
+<resources>
+    <string name="app_name">NBA Team Selection</string>
+    <string name="qa_app_name">(QA) NBA Team Selection</string>
+    <string name="prod_app_name">NBA Team Selection</string>
+    <string name="app_title">NBA Team Picker</string>
+    <string name="loading_text">Loading...\nPlease wait</string>
+    <string name="loading_family">Loading Family Details\nPlease wait</string>
+    <string name="uploading_text">Uploading your document</string>
+    <string name="network_text">You are currently not online...</string>
+    <string name="app_exit_text">Click again to exit vHealth App</string>
+    <string name="txt_activate_account">Activating your account</string>
+    <string name="empty_string"> </string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_appointments">Appointments</string>
+    <string name="title_healthdata">Health Data</string>
+    <string name="title_my_records">My Record</string>
+    <string name="title_more">More</string>
+    <string name="title_more_account">My Account</string>
+    <string name="title_more_help">Help &amp; Support</string>
+    <string name="title_photo_preview">Image Preview</string>
+    <string name="btn_help"><b>?</b></string>
+    <string name="title_more_about">About</string>
+    <string name="title_more_wellness">Wellness</string>
+    <string name="title_more_logout">Logout</string>
+
+
+    <string name="filter_view_https_vhealth_dubai">filter_view_https_vhealth_dubai</string>
+
+    <string name="slide_01">See a vHealth doctor at a time that suits you</string>
+    <string name="slide_02">Get trusted wellness and medical advice</string>
+    <string name="slide_03">Our doctors are available 8am - 8pm Monday to Saturday</string>
+    <string name="login">Login</string>
+    <string name="reg">Register</string>
+    <string name="ineligible_title">I\'m sorry this service is not yet available for you</string>
+    <string name="ineligible_content">Sorry, at this time vHealth is only available for limited members in certain geographies. Eligible members will receive an email invitation once vHealth is available for them.</string>
+    <string name="home_subtitle">Your next available appointments are</string>
+    <string name="book_app_error_next_avail">Next available</string>
+    <string name="home_while_slot_load">Loading your next available appointments...</string>
+    <string name="today">Tomorrow</string>
+    <string name="time">8:00 pm</string>
+    <string name="time1">8:30 pm</string>
+    <string name="time2">9:00 pm</string>
+    <string name="btn_availability">See all availability</string>
+    <string name="home_health">Connect to your Health Kit to track your health data</string>
+    <string name="home_health_connected">Your Health kit is connected</string>
+    <string name="btn_view_all">View all</string>
+    <string name="home_medical">Keep track of medical records</string>
+    <string name="txt_well_being">Well-being</string>
+    <string name="txt_calm">Calm</string>
+    <string name="calm_subtxt">Meditation and Sleep Stories</string>
+    <string name="image">image view</string>
+    <string name="bck_to_home">Back to Homepage</string>
+    <string name="btn_setupGoogleFit">Sync your health data</string>
+    <string name="txt_notify_push">Phone notification</string>
+    <string name="txt_notify_text">Text</string>
+    <string name="txt_notify_email">Email</string>
+    <string name="btn_nothanks">No thanks</string>
+    <string name="btn_synch_health_data">Sync your health data</string>
+    <string name="txt_tab_googlefit">vHealth would like to access the health data on your phone. This will allow you to keep track of all your health and fitness data in one place</string>
+    <string name="txt_your_medical_notes">Your medical notes</string>
+    <string name="txt_your_medical_subtext">Notes from your doctor on your general health will be added here. Notes specific to your consultations will be stored in your</string>
+    <string name="txt_appointment_history">appointment history.</string>
+    <string name="txt_setup_googlefit_heading">Track your health &amp; fitness</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="something_wrong">Something went wrong!</string>
+    <string name="notify_preferred_methods">We need atleast one way to contact you. Please choose your preferred methods</string>
+    <string name="something_wrong_try_later">Unfortunately we’re unable to proceed at this moment…\nPlease try again in few minutes</string>
+    <string name="pms_error_response">401050</string>
+    <string name="pms_user_error_message">Unfortunately we’re unable to locate your details to proceed. Please contact the vHealth support team for assistance.\n\nsupport@vhealth.co.ae\n800035704672(UAE)\n+9714 871 0100 (outside UAE)
+</string>
+    <string name="retry">Retry</string>
+
+    <string name="txt_setup_notificaiton_heading">Turn on notifications</string>
+    <string name="txt_setup_notificaiton_subtext">Please select at least one of the options below, so we can send you information and reminders about your consultations.</string>
+    <string name="txt_setup_notificaiton_all">Turn on all notifications</string>
+    <string name="Nxt_app">Your next appointment</string>
+    <string name="txt_vieworedit">View or edit details</string>
+    <string name="btn_book_appointment">Book another appointment</string>
+    <string name="txt_mapmyrun">Map My Run by Under Armour</string>
+    <string name="mapmyrun_subtxt">GPS Running &amp; Workout Tracker</string>
+    <string name="txt_myfitnesspal">MyFitnessPal</string>
+    <string name="myfitness_subtxt">Calorie Counter &amp; Diet Tracker</string>
+    <string name="txt_reg_step1_minor_heading">Members under 18</string>
+    <string name="txt_reg_step1_major_eading">Your members</string>
+    <string name="txt_reg_step1_heading">Give your family access to vHealth</string>
+    <string name="txt_reg_step1_subtext">Please provide an email address for each family member on your policy. We’ll then send them an invitation to activate their vHealth account.</string>
+    <string name="title_stayin_touch">How should we \nstay in touch?</string>
+    <string name="stayin_touch_subtxt">Aetna would like to stay in touch with you for marketing purposes. If you’re happy for us to update you on our latest products and services, please confirm the best way to contact you.</string>
+    <string name="stayin_customer_subtxt">Aetna is often looking to develop its products and services. If you’re happy to take part in our customer research, please confirm the best way for us to get in touch.</string>
+    <string name="stayin_service_title">Service &amp; product news</string>
+    <string name="stayin_customer_title">Customer research</string>
+    <string name="aetna_policy_text">To read more about how we keep your data secure, please see our <a href='https://www.vhealth.co.ae/vHealthDubai/privacy-policy'>Privacy Policy</a> </string>
+    <string name="txt_reg_step4_1">In order to continually improve and optimise our services, we would like your permission to share data with Aetna International.</string>
+
+    <string name="txt_reg_step4_2">Everything you share with your doctor will be kept completely confidential and under no circumstances will it affect your insurance premiums.</string>
+
+    <string name="txt_book_appointment_heading">Give your appointment a name</string>
+    <string name="txt_book_appointment_subtext">Choose something that\'s easy to remember, like knee pain, chesty cough or migraine.</string>
+    <string name="txt_book_appointment_subtext2">You will also be able to upload notes or images for the doctor once your booking is confirmed.</string>
+    <string name="txt_book_symptom_heading">Tell us about your symptoms</string>
+    <string name="txt_book_symptom_subtext">What is the main problem? How long have you had these symptoms? Is it getting better or worse? This information will help your doctor ahead of your consultation.</string>
+    <string name="txt_book_number_heading">Which number should we call you on?</string>
+    <string name="txt_book_number_subtext">Please select one of the telephone numbers below or add/edit an alternative number which you would like to use for this call.</string>
+    <string name="txt_book_doc_heading">Add document or image</string>
+    <string name="txt_book_doc_subtext">Please upload any images or documents you feel would be useful for doctor in your consultation</string>
+    <string name="txt_book_doc_heading_uploaded">Your document has been Added</string>
+    <string name="txt_book_doc_subtext_uploaded">Documents will be uploaded at the end of the booking process</string>
+
+    <string name="txt_primary_num_not_available">Unfortunately, there is no phone number associated to your account.Please update the primary phone number in My details section to proceed further.</string>
+
+    <string name="txt_primary_num_not_avail_navi">More \u2192 My Account \u2192 My Details \u2192 Edit Phone Number</string>
+
+
+    <string name="txt_book_doc_filetype">Choose file type</string>
+    <string name="txt_book_doc_type_subtext">Make sure your file is under 10mb, you can upload an image (PNG/JPEG),PDF,Word</string>
+    <string name="txt_book_pic_subtext">Take a picture</string>
+    <string name="txt_book_photos_subtext">Choose from photos</string>
+    <string name="txt_book_file_subtext">Upload a file</string>
+    <string name="txt_book_rev_heading">Are these details correct?</string>
+    <string name="txt_book_rev_subtext">Please check before confirming your appointment.</string>
+    <string name="txt_book_number_alternate_text">Add an alternate number for this consultation</string>
+    <string name="txt_book_you_num">Your number</string>
+    <string name="txt_book_num_alternative">Alternative number</string>
+
+
+    <string name="txt_book_error">Sorry, the appointment you have choosen is no longer available </string>
+    <string name="txt_book_error_subtext">Please choose an alternative from the options below </string>
+
+    <string name="txt_book_rev_name">Appointment Name</string>
+    <string name="txt_book_rev_follow_name">Follow up from</string>
+
+
+    <string name="txt_book_rev_on">On</string>
+    <string name="txt_book_rev_type">Type</string>
+    <string name="txt_book_hint_symp">Describe your symptoms (optional)</string>
+    <string name="txt_book_rev_symp">Symptoms</string>
+
+    <string name="txt_book_rev_file">Files</string>
+    <string name="txt_hint_apppointment"><i>Appointment Name</i></string>
+    <string name="txt_hint_ph_num">Phone Number</string>
+    <string name="txt_hint_contry_code">Country Code</string>
+
+
+    <string name="noon">Noon</string>
+    <string name="evening">Evening</string>
+    <string name="morning_time">8 am - 11.30 pm</string>
+    <string name="noon_time">12 pm - 3.30 pm</string>
+    <string name="evening_time">4 pm - 8 pm</string>
+    <string name="morning">Morning</string>
+    <string name="txt_btn_finish">Finish</string>
+    <string name="txt_btn_save">Save</string>
+    <string name="txt_btn_save_changes">Save Changes</string>
+
+    <string name="txt_btn_exit">Exit</string>
+    <string name="txt_btn_yes">Yes</string>
+    <string name="txt_btn_no">No</string>
+
+    <string name="txt_btn_rtn_booking">Return to booking</string>
+    <string name="txt_btnbookafollowup">Book a follow up</string>
+    <string name="swp_btnbookafollowup">Book a \nfollow up</string>
+    <string name="txt_btnkeepapp">Keep this appointment</string>
+    <string name="txt_cancelapp">Cancel appointment</string>
+    <string name="txt_add_to_calendar">Add to calendar</string>
+    <string name="txt_added_to_calendar">Added to calendar</string>
+    <string name="txt_btnChooseFileUpload">Choose file to upload</string>
+    <string name="txt_helpfileupload">Please upload any images or documents you feel would be useful for the doctor in your consultation</string>
+
+    <string name="txt_confirm_heading">Your appointment has been booked</string>
+    <string name="txt_reschedule_confirm_msg">Your appointment has been rescheduled</string>
+    <string name="txt_confirm_subtext">Thank you for booking with vHealth. Your doctor will call you when it’s time for your appointment.</string>
+
+
+    <string name="book_another_appointment">Book another appointment</string>
+    <string name="show_all_appointments">Show all appointments</string>
+
+    <string name="txt_past_appointment">Past Appointment</string>
+    <string name="txt_next_appointment">Next Appointment</string>
+    <string name="txt_upcoming_appointment">Upcoming Appointment</string>
+    <string name="phone_call">Phone call</string>
+    <string name="appointment_detail">Appointment detail</string>
+    <string-array name="tap_appointments">
+        <item>Past\nAppointment</item>
+        <item>Next\nAppointment</item>
+        <item>Upcoming\nAppointment</item>
+    </string-array>
+    <string name="howitworks">HOW IT WORKS</string>
+    <string name="appointment_inprogress">Your doctor will call you shortly</string>
+    <string name="we_re_not_just_here">We\'re not just here for when you\'re feeling unwell. Book a consultation to get a general assessment of your health and advice on sleep, nutrition, exercise and diet.</string>
+    <string name="no_upcoming_appointments">You don\'t have any upcoming appointments</string>
+    <string name="no_past_appointments">You don\'t have any past appointments</string>
+    <string name="txt_book_appointment">Book appointment</string>
+    <string name="txt_book_new_appointment">No, I want to book a new appointment</string>
+    <string name="txt_followup_appointment">Is this a follow up\nappointment?</string>
+    <string name="txt_followup_title">Yes, it\'s a follow up</string>
+    <string name="txt_followup_subtitle">Choose an appointment to follow up on.</string>
+    <string name="txt_is_emergency">Is this an emergency?</string>
+    <string name="txt_emergency_subtext1">vHealth appointments are not intended for emergencies.</string>
+    <string name="txt_emergency_subtext2">If you have a medical emergency, please call your local emergency services.</string>
+    <string name="txt_edit_mobile">Use the following number for this consultation</string>
+    <string name="txt_close_booking_alert">Are you sure you want to exit the booking process?</string>
+    <string name="txt_session_expire_alert">vHealth \n Session Expired</string>
+    <string name="txt_session_expire_subtext">Please re-login to renew your session</string>
+    <string name="txt_close_logout_alert">Are you sure you want to log out?</string>
+
+
+    <string name="txt_remove_file_alert">Are you sure you want to remove your Document?</string>
+    <string name="txt_close_alert_subtext">Your appointment has not yet been booked.</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="remove">Remove</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+
+
+    <string-array name="tab_slots">
+        <item>Morning\n8 am - 12 pm</item>
+        <item>Afternoon\n12 pm - 4 pm</item>
+        <item>Evening\n4 pm - 8 pm</item>
+    </string-array>
+
+    <string name="show_appointments">Show all appointments</string>
+
+    <string name="txt_help_we_are_here">We\'re here to help you</string>
+    <string name="txt_help_we_are_here_sub">If you\'re having trouble, don\'t worry, you can always contact the Aetna vHealth team using the number listed below, or find answers on our dedicated help pages.</string>
+    <string name="txt_help_take_look">Take a look at</string>
+    <string name="txt_help_faq">Frequently Asked Questions</string>
+
+    <string name="txt_help_call_us">Call us on</string>
+    <string name="txt_help_support">Help &amp; Support</string>
+
+    <string name="txt_help_call_us_num">8000 357 04672</string>
+    <string name="txt_help_email_us">Email us on</string>
+    <string name="txt_help_call_us_email">support@vhealth.co.ae</string>
+    <string name="txt_help_call_us_email_link"><a href='support@vhealth.co.ae'>support@vhealth.co.ae</a></string>
+
+    <string name="txt_more_about">About</string>
+    <string name="txt_more_licenses">Licenses</string>
+    <string name="txt_more_licenses_moh">Dubai Ministry Of Health : T317CPF8  &#8211; 110421</string>
+
+
+    <string name="txt_profile_notifcation">Notifications</string>
+    <string name="txt_profile_details">My Account Details</string>
+    <string name="txt_profile_privacy">Privacy</string>
+
+    <string name="txt_profile_acct">My Account</string>
+    <string name="txt_mydet_name">Name</string>
+    <string name="txt_mydet_child">Child</string>
+
+    <string name="txt_mydet_memship">Membership ID</string>
+    <string name="txt_mydet_email">Email Address</string>
+    <string name="txt_mydet_update_email">Update</string>
+    <string name="txt_mydet_number">Primary Phone Number</string>
+    <string name="txt_mydet_child_text">You can book appointments on behalf of dependents under 18 years of age.</string>
+
+
+    <string name="txt_mydet_your_family">Your family members</string>
+    <string name="txt_mydet_sub1">Are your details correct?</string>
+    <string name="btn_mydet_text">Update your details</string>
+
+    <string name="txt_mydet_sub2">You can update your details easily through your online account.</string>
+    <string name="book_app_symp_original">Your Original symptoms</string>
+    <string name="txt_followup_symptom_subtext">Describe any developments since your last appointment and why you\'d like a follow up.</string>
+    <string name="txt_followup_symptom_heading">Have your symptoms changed?</string>
+    <string name="txt_followup_symptom_hint_optional">Tell us more about your symptoms(optional)</string>
+    <string name="txt_error_un_avail_slot_heading">Sorry, the appointment time you have chosen is no longer available</string>
+    <string name="txt_error_unable_book_heading">Sorry, we are unable to confirm your booking</string>
+
+    <string name="txt_error_unable_book_subtext">There’s been a technical issue at our end. Please call the vHealth team on  8000 357 04672 (UAE) or  +9714 871 0100 (outside UAE) to book your appointment.</string>
+    <string name="txt_error_system_wrong_heading">Sorry, it seems our system needs a doctor!</string>
+    <string name="txt_error_system_wrong_subtext">Please try again in a few minutes.</string>
+    <string name="txt_app_notify_head">Appointment notifications</string>
+    <string name="txt_app_notify_subtext">To deliver this service effectively we need at least one way to contact you. Please choose your preferred methods below</string>
+    <string name="txt_comm_notify_head">Communications</string>
+    <string name="txt_comm_notify_subtext">From time to time we send information about vHealth and products and services to support your health and well-being. How would you like to be contacted about this?</string>
+
+    <string name="txt_research_notify_head">Customer Research</string>
+    <string name="txt_research_notify_subtext">Aetna would like to be able to contact you to take part in customer research to help us develop new services and products. How can we contact you?</string>
+
+    <string name="txt_health_notify">Health Data</string>
+    <string name="txt_health_subtext">vHealth would like to access the Health data on your phone. This allows you to keep track of all your health &amp; fitness data at one place</string>
+    <string name="txt_sharing_data_head">Sharing data</string>
+    <string name="txt_sharing_data_subtext">Anything you share with your doctor will be kept confidential and under no circumstances will it affect your insurance.We would like to ask your permission to share data with Aetna International in order to understand and improve our services.</string>
+    <string name="txt_sharing_data_subtext2">To read more about how we keep your data secure, please see our privacy policy.</string>
+    <string name="txt_sharing_data_subtext3">I agree to share my data with <a href='https://www.vhealth.co.ae/vHealthDubai/privacy-policy'>Aetna International</a></string>
+
+    <string name="upload_upto_5_files">Upload upto 5 files</string>
+    <string name="add_another">Add another</string>
+    <string name="txt_app_cnclconfirm_title">Are you sure you want to cancel?</string>
+    <string name="txt_app_cancelled_title">Your appointment has been cancelled</string>
+    <string name="txt_app_cancelled_subtitle">But rest assured, we\'ll be right here when\nyou need us.</string>
+    <string name="txt_diagnosis">Diagnosis</string>
+    <string name="txt_notes">Notes</string>
+    <string name="txt_medication">Medication</string>
+    <string name="txt_reschedule">Reschedule</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_finish">Finish</string>
+    <string name="Upload_finish_text">Uploaded</string>
+    <string name="Upload_failed_text">Failed</string>
+
+    <string-array name="tab_medical">
+        <item>Conditions</item>
+        <item>Medication</item>
+        <item>Previous\nOperation</item>
+        <item>Allergy</item>
+        <item>Family\nHistory</item>
+    </string-array>
+
+    <string name="addCalTitle">vHealth Appointment</string>
+    <string name="eventDesc">You have scheduled an appointment.</string>
+    <string name="filter">Filter</string>
+    <string name="file_not_supported">File not supported</string>
+    <string name="title_file_name_not_supported">Invalid document title</string>
+    <string name="des_file_name_not_supported">Document name shouldn\'t contain any special characters</string>
+    <string name="selected_file_already_added">Selected file is already added.</string>
+    <string name="txt_fileSubTitle">Make sure uploaded file is an image (PNG/JPEG),PDF,Word. If you\'re having trouble uploading, you can send it via \nemail to: support@vhealth.co.ae</string>
+    <string name="txt_btn_okgotit">OK, got it</string>
+    <string name="txt_fileTitle_big">Your document is \ntoo big</string>
+    <string name="txt_filesubTitle_big">Make sure your file is under 10MB. If you’re having trouble uploading, you can send it via \nemail to: support@vhealth.co.ae</string>
+    <string name="drop_down_country_pref">ae,gb,us </string>
+    <string name="confirm_send">Confirm &amp; Send</string>
+    <string name="email_address">Email address</string>
+    <string name="members_under_the_age_of_18_are_automatically_included_on_your_account">Members under the age of 18 are automatically included on your account.</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+
+    <string name="txt_urhealthdata">Your Health Data</string>
+    <string name="txt_ursteps_today">Your steps today</string>
+    <string name="txt_avg_steps_month">Average steps this month</string>
+    <string name="txt_last30days">Last 30 days</string>
+    <string name="txt_distance_today">Distance Today</string>
+    <string name="txt_walking_runnning">Walking / Running</string>
+    <string name="txt_workout">Workout</string>
+    <string name="txt_nodata_synced">No data synced</string>
+    <string name="txt_heartrate">Heart Rate</string>
+    <string name="txt_heartrate_unit"> bpm</string>
+    <string name="txt_bloodglucose"><b>Blood</b>\nGlucose</string>
+    <string name="txt_bloodglucose_unit"> mg/dl</string>
+    <string name="txt_bmi"><b>BMI</b></string>
+    <string name="txt_weight">Weight</string>
+    <string name="txt_weight_kg"> kg</string>
+    <string name="txt_height">Height</string>
+    <string name="txt_height_cm"> cm</string>
+    <string name="txt_moredata_available">There\'s more\ndata available</string>
+    <string name="txt_find_out_more">Find out more</string>
+
+
+    <string name="btn_txt_install_gf">Install Google Fit</string>
+    <string name="btn_txt_launch_gf">Launch Google Fit</string>
+    <string name="txt_install_googlefit_heading">Health data not available</string>
+    <string name="txt_install_googlefit_subheading">Please install Google Fit so that we can access the health data on your phone</string>
+    <string name="txt_get_more_googlefit_heading">Get the most from your health data</string>
+    <string name="txt_get_more_googlefit_subheading">This app uses your Health Kit to display your health &amp; fitness data. If you want to see more data in your vHealth app, simply add it your Health Kit.</string>
+
+    <string name="tc_title">Welcome to vHealth</string>
+    <string name="tc_sub_txt">Just before we get started we need you to accept our terms &amp; conditions to use our vHealth service.</string>
+    <string name="tc_link">I accept the Terms &amp; Conditions</string>
+    <string name="tc_info_section">How we use your information</string>
+    <string name="tc_info_detail">Respect for your privacy is extremely important to us. We value your privacy and want to be clear about the data we collect, how we use it and your right to control that information. \n\nvHealth is a primary care service and all the information you provide vHealth is completely confidential and never shared with anyone without your permission, including your insurer Aetna International.  The vHealth service is made available to you free of charge through Aetna International and we’d like your permission to share limited data with Aetna International about your vHealth consults so that they can understand the value vHealth is providing to you and help us improve the program.\n\nUnder no circumstance will this data affect your insurance premiums and everything you share with your doctor will be kept confidential.</string>
+    <string name="tc_privacy_sction">To read more about how keep your data secure, please see our privacy policy.</string>
+    <string name="tc_aetna_sction">I opt in to sharing my data with Aetna International</string>
+    <string name="tc_button">Continue to vHealth</string>
+    <string name="wellness_title">Apps for a healthier mind and body</string>
+    <string name="wellness_subtxt">Aetna members get special discounts on these selected well-being apps</string>
+    <string name="logout_success">Logged out successfully</string>
+    <string name="mindfulness_txt">MIND</string>
+    <string name="sportactivity_txt">Sport &amp; Activity</string>
+    <string name="dietnutri_txt">Diet &amp; Nutrition</string>
+    <string name="tms_txt">Trusted medical sources</string>
+    <string name="ourpartner_txt">Our Partners</string>
+    <string name="symptoms_txt">Symptoms:</string>
+    <string name="uploading">Uploading...</string>
+    <string name="wellness_body">BODY</string>
+    <string name="copy_symptoms">Copy Symptoms</string>
+    <string name="calendar_is_not_associated">Calendar is not associated in the phone to add your appointment</string>
+    <string name="please_enable_your_calendar">Please enable your calendar option to proceed</string>
+    <string name="unable_to_add_calendar">Unable to add the appointment in your Calendar. Please try again</string>
+    <string name="not_available">Not available</string>
+    <string name="loading_family_details">Loading Family member details ...</string>
+    <string name="redirect_title">Redirect Alert!</string>
+    <string name="redirect_text">You are about to be taken to the Health Hub to update your email address. For your security, you will be logged out of the vHealth app.</string>
+
+    <string name="select_member_title">Select member</string>
+    <string name="select_member_text">Please select who you would like to book the vHealth appoinment for</string>
+    <!--    accessibility description-->
+    <string name="readout_vhealth">V Health</string>
+    <string name="readout_wellbeing">Well being</string>
+    <string name="readout_appointment_history">appointment history</string>
+    <string name="readout_wellness_viewall">Well-Being View All button</string>
+    <string name="readout_navigate_toHD">navigate to Health Data button</string>
+    <string name="readout_navigate_toMyrecord">navigate to My record button</string>
+    <string name="readout_menu_home">Home tab 1 of 5</string>
+    <string name="readout_menu_appointment">Appointments tab 2 of 5</string>
+    <string name="readout_menu_healthdata">Health Data tab 3 of 5</string>
+    <string name="readout_menu_myrecord">My medical record tab 4 of 5</string>
+    <string name="readout_menu_more">More tab 5 of 5</string>
+    <string name="accessibility_tab_format_selected">%s tab  %d of %d </string>
+    <string name="accessibility_tab_format">%s tab %d of %d unselected</string>
+    <string name="readout_select_member_text">Please select who you would like to book the V Health appoinment for</string>
+    <string name="readout_average_steps">Your average steps for last 30 days is :@{usrMonthAvgSteps}</string>
+    <string name="readout_today_distance">Today distance for Walking or Running</string>
+    <string name="readout_today_distance_value">Today distance is @{usrTodaysDistance}</string>
+    <string name="readout_activity_type_fitdata">Activity type @{fitData.displayName()}</string>
+    <string name="readout_latest_heart_rate">Latest heart rate</string>
+    <string name="readout_find_out_more">click here to find out more in health data option</string>
+    <string name="readout_close_health_data_more_option">close health data more option</string>
+    <string name="readout_switch_dependent">Switch User</string>
+    <string name="talkback_notes_from_yourdoc">Notes from your doctor on your general health will be added here. Notes specific to your consultations will be stored in your appointment history</string>
+    <string name="talkback_click_here_to_navigate_to_appointment_history">navigate to appointment history button</string>
+    <string name="talkback_update_email">update email button</string>
+    <string name="talkback_update_phone_number">Edit Phone Number button</string>
+    <string name="readout_edit_phone_number">Edit Phone number</string>
+    <string name="readout_select_country_code">select country code</string>
+    <string name="readout_enter_phone_number">Enter phone number</string>
+    <string name="readout_navigate_to_faq">Navigate to FAQ button</string>
+    <string name="readout_health_data_switch">health data</string>
+    <string name="readout_share_data_switch">share data</string>
+    <string name="readout_edit_appointment_name">edit appointment name button</string>
+    <string name="readout_edit_appointment_date_time">edit appointment date/time button</string>
+    <string name="readout_edit_symptoms">edit symptoms button</string>
+    <string name="readout_add_file">add file button</string>
+    <string name="readout_remove_files">remove file button</string>
+    <string name="readout_filter_button">filter button</string>
+    <string name="readout_take_a_picture_button">Take a picture button</string>
+    <string name="readout_choose_from_photos_button">Choose from photos button</string>
+    <string name="readout_upload_a_file_button">upload a file button</string>
+    <string name="readout_navigate_to_my_account_button">navigate to my account button</string>
+    <string name="readout_navigate_to_wellness_button">navigate to wellness button</string>
+    <string name="readout_navigate_to_help_and_support_button">navigate to help and support button</string>
+    <string name="readout_navigate_to_know_about_vhealth_app_button">navigate to know about vhealth app button</string>
+    <string name="readout_logout_button">Logout button</string>
+    <string name="readout_view_or_edit_appointment_details_button">view or edit appointment details button</string>
+    <string name="readout_show_all_appointments_button">show all appointments button</string>
+    <string name="readout_loading_please_wait">loading please wait</string>
+    <string name="readout_close_edit_phone_number_button">close edit phone number</string>
+    <string name="dismiss_button_content_description">close search country dialog</string>
+    <string name="clear_search_button_content_description">Clear search</string>
+    <string name="navigate_to_help">navigate to help</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="whats_new">What\'s New!</string>
+    <string name="whats_new_content">
+        We\'ve been busy making the app even easier to use, with improvements to:<br /><br />
+        &#8226; Help &amp; Support access<br /><br />
+        &#8226; FAQ\'s<br /><br />
+        &#8226; Managing your appointments<br /><br />
+        &#8226; Booking a follow-up<br /><br />
+        &#8226; Rescheduling<br /><br />
+        &#8226; Cancellations<br /><br />
+        Click continue and we\'ll show you around!
+    </string>
+
+    <string name="dietician_title_txt">Dietician appointments</string>
+    <string name="dietician_sub_txt1">You can book and reschedule your dietician appointment using the contact details below. Our vHealthers will be happy to assist.</string>
+    <string name="dietician_sub_txt2">It is not currently possible to book via the app, but your appointments and treatment plans will be available on the app.</string>
+    <string name="send_email">Send email</string>
+    <string name="call_number">Call number</string>
+    <string name="phone">Phone</string>
+    <string name="call_number_uae">800035704672<br />(UAE)</string>
+    <string name="call_number_outside_uae">+9714 871 0100<br />(outside UAE)</string>
+    <string name="only_call_number_uae">800035704672</string>
+    <string name="only_call_number_outside_uae">+9714 871 0100</string>
+    <string name="view_dietician_faq_s">View dietician FAQ\'s</string>
+    <string name="no_slots_err_title">There are currently no appointments</string>
+    <string name="no_slots_err_sub_title">Check back to see when appointments become available. These are updated daily.</string>
+    <string name="dietician_error_response">401055</string>
+    <string name="saturday_to_thursday_8am_to_8pm">Monday to Saturday, 8am to 8pm</string>
+    <string name="txt_open">Open</string>
+    <string name="clock_icon">clock icon</string>
+
+    <string name="session_will_expire">Your vHealth session will expire in 5 minutes due to inactivity.Any unsubmitted information will not be saved.</string>
+    <string name="session_has_expired">Your vHealth session has expired due to inactivity. Please log in again.</string>
+    <string name="app_timeout">App timeout</string>
+    <string name="app_update_title">New version available</string>
+    <string name="add_upload_documents"><![CDATA[Add & Upload Documents]]></string>
+    <string name="no_file_added">No file added</string>
+    <string name="files_already_uploaded">Files - Already Uploaded</string>
+    <string name="files_to_be_uploaded">Files - To be Uploaded</string>
+    <string name="x_out_5_files_uploaded">%d / 5 files uploaded</string>
+    <string name="upload_file">Upload File</string>
+    <string name="proceed">Proceed</string>
+    <string name="please_indicate_the_main_reason_for_needing_to_cancel_vhealth_consultation">Please indicate the main reason for needing to cancel vHealth consultation:</string>
+    <string name="files_uploaded_now">Files – Uploaded now</string>
+    <string name="we_are_planning_some_essential_maintenance">We are planning some essential maintenance</string>
+    <string name="if_you_have_an_appointment_during_this_time_our_vhealth_doctor_will_call_as_planned_unless_you_get_a_message_to_say_otherwise">If you have an appointment during this time, our vHealth Doctor will call as planned unless you get a message to say otherwise.</string>
+    <string name="duration_msg">
+        <![CDATA[
+        Start Date: 1st January 2022 at HH:MM \n
+        End Date: 2nd January 2022 at HHMM
+        ]]>
+    </string>
+    <string name="some_maintenance_text">In order to give you our best vHealth Dubai experience, we need to complete some maintenance and during that time this app will not be accessible.</string>
+    <string name="planned_maintenance">Planned Maintenance is active at this time</string>
+    <string name="vhealth_doctors">vHealth Doctors</string>
+    <string name="click_to_view_intro_video">Click to View Intro Video</string>
+    <string name="bio">Doctor Profile:</string>
+    <string name="select_a_doctor_to_learn_more_about_them">Select a Doctor to learn more\nabout them</string>
+    <string name="more_information">More Information</string>
+    <string name="division">DIVISION</string>
+    <string name="conference">CONFERENCE</string>
+    <string name="city">CITY</string>
+    <string name="name">Name</string>
+    <string name="select_team">SELECT TEAM</string>
+
+    <string-array name="navTabs">
+        <item>readout_menu_home</item>
+        <item>readout_menu_appointment</item>
+        <item>readout_menu_healthdata</item>
+        <item>readout_menu_myrecord</item>
+        <item>readout_menu_more</item>
+    </string-array>
+</resources>

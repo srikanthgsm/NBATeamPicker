@@ -1,0 +1,154 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-allopen'
+apply plugin: 'androidx.navigation.safeargs.kotlin'
+apply plugin: 'kotlin-android-extensions'
+
+def prodVersion = "1.0"
+def nonProdVersion = "1.1"
+
+android {
+    compileSdkVersion build_versions.target_sdk
+    buildToolsVersion build_versions.build_tools
+//    compileSdkVersion 33
+//    buildToolsVersion "33.0.0"
+    defaultConfig {
+        applicationId "com.nbateampicker"
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+//        minSdk 29
+//        targetSdk 33
+        versionCode 1
+        versionName prodVersion
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    /*signingConfigs {
+        test {
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+        }
+    }*/
+
+
+    buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+            testCoverageEnabled false
+            //signingConfig signingConfigs.test
+            multiDexEnabled = true
+        }
+
+        release {
+            debuggable false
+            shrinkResources true
+            minifyEnabled true
+            //signingConfig signingConfigs.test
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            multiDexEnabled = true
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    lintOptions {
+        lintConfig rootProject.file('lint.xml')
+    }
+    
+    flavorDimensions 'default'
+    productFlavors {
+        qa {
+            dimension = 'default'
+            manifestPlaceholders = [app_name: "@string/qa_app_name"]
+            buildConfigField 'String', 'BASE_API_URL_NEW', '"https://www.balldontlie.io/"'
+            versionName nonProdVersion
+        }
+        prod {
+            dimension = 'default'
+            manifestPlaceholders = [app_name: "@string/prod_app_name"]
+            buildConfigField 'String', 'BASE_API_URL_NEW', '"https://www.balldontlie.io/"'
+            versionName prodVersion
+        }
+    }
+    if (project.hasProperty('devBuild')) {
+        splits.abi.enable = false
+        splits.density.enable = false
+        aaptOptions.cruncherEnabled = false
+    }
+}
+
+dependencies {
+
+    implementation deps.constraint_layout
+    implementation deps.kotlin.stdlib
+
+    implementation deps.app_compat
+    implementation deps.recyclerview
+    implementation deps.cardview
+    implementation deps.material
+    implementation deps.core_ktx
+    implementation deps.transition
+    implementation deps.navigation.fragment_ktx
+    implementation deps.navigation.ui
+    implementation deps.navigation.ui_ktx
+    implementation deps.navigation.fragment
+    implementation deps.lifecycle.livedata_ktx
+    implementation deps.lifecycle.extensions
+    implementation deps.lifecycle.viewmodel_ktx
+    implementation deps.lifecycle.runtime
+    implementation deps.lifecycle.java8
+
+    implementation deps.pageindicatorview
+
+    implementation deps.retrofit.runtime
+    implementation deps.retrofit.gson
+
+    implementation deps.okhttp
+    implementation deps.okhttp_logging_interceptor
+
+    implementation deps.glide.runtime
+
+    implementation deps.dagger.runtime
+    implementation deps.dagger.android
+    implementation deps.dagger.android_support
+
+    implementation deps.work.runtime_ktx
+
+    implementation 'com.google.firebase:firebase-iid:21.0.1'
+    implementation 'com.google.firebase:firebase-messaging:21.0.1'
+
+    implementation 'com.google.firebase:firebase-analytics:18.0.2'
+
+    kapt deps.dagger.android_support_compiler
+    kapt deps.dagger.compiler
+    kapt deps.lifecycle.compiler
+
+    //loading animation
+    implementation 'com.agrawalsuneet.androidlibs:dotsloader:1.4'
+    implementation 'com.hbb20:ccp:2.4.5'
+
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+
+    implementation 'com.params.stepview:stepview:1.0.2'
+    implementation 'org.jsoup:jsoup:1.14.2'
+    implementation group: 'commons-io', name: 'commons-io', version: '2.6'
+
+    implementation 'com.squareup.inject:assisted-inject-annotations-dagger2:0.5.2'
+    kapt 'com.squareup.inject:assisted-inject-processor-dagger2:0.5.2'
+
+
+    // Required for local unit tests (JUnit 4 framework)
+    testImplementation 'junit:junit:4.13.2'
+}

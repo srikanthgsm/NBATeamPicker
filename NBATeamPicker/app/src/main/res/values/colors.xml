@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="blacka">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#7E4098</color>
+    <color name="colorPrimaryDark">#562A64</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTitleText">#1b7a6b</color>
+    <color name="colorSubText">#d9e2e0</color>
+    <color name="colorButtonOutline">#d7d7d7</color>
+    <color name="colorPurple">#7d3f98</color>
+    <color name="colorGradientStart">#7E4098</color>
+    <color name="colorGradientEnd">#412252</color>
+    <color name="colorAetnPink">#D21B64</color>
+    <color name="link_pink">#E64682</color>
+    <color name="missed_stroke_color">#ff3a30</color>
+    <color name="colorOnboardingtext">#414141</color>
+    <color name="colorOnboardingTabDotTrue">#00f0cc</color>
+    <color name="colorOnboardingTabDotFalse">#dcdcdc</color>
+    <color name="appointment_card_stroke_bg">#e0e0e0</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="color_pink">#D21B64</color>
+    <color name="color_black">#414141</color>
+    <color name="persian_green">#00A78E</color>
+    <color name="new_persian_green">#00856F</color>
+    <color name="new_gray">#757575</color>
+    <color name="color_aqua_link">#29efcc</color>
+    <color name="alpha_persian_green">#6600A78E</color>
+    <color name="transparent">#00000000</color><!-- full trans black -->
+    <color name="full_transparent_white">#FF000000</color> <!-- full trans white -->
+    <!-- Status bar color for semi transparent mode. -->
+    <color name="system_bar_background_semi_transparent">#66000000</color> <!-- 40% black -->
+    <color name="black_shade_semi_transparent">#8C000000</color> <!-- 60% black -->
+    <color name="semi_transparent">#CC000000</color> <!-- 80% black -->
+    <color name="black">#000000</color> <!-- 100% black -->
+    <color name="aetna_violet">#7E4098</color>
+    <color name="grey">#F5F5F5</color>
+    <color name="em_divider_grey">#ebebeb</color>
+    <color name="divider_grey">#dedede</color>
+    <color name="hd_bg_grey">#F1F1F1</color>
+    <color name="dim_grey">#646464</color>
+    <color name="color_black_alpha80">#41414180</color>
+    <color name="light_grey">#686666</color>
+    <color name="shadow_grey">#9E9EA8</color>
+    <color name="shadow_grey_alpha">#1010102b</color>
+    <color name="light_green">#00f0cc</color>
+    <array name="dot_colors">
+        <item>#00f0cc</item>
+        <item>#FFFFFF</item>
+    </array>
+
+    <color name="step_bar_color">#6a3f82</color>
+    <color name="color_preloader_start">#7E4098</color>
+    <color name="color_preloader_center">#000000</color>
+    <color name="color_preloader_end">#FFFFFF</color>
+
+</resources>

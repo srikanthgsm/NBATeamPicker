@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <domain-config enforcePinning="false">
+        <domain includeSubdomains="false">play.google.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">gIDBd2nkW78zgQuZix6VJ4ZYAkZAVRU4pnRye/SnGjQ=</pin>
+            <pin digest="SHA-256">zCTnfLwLKbS9S2sbp+uFz4KZOocFvXxkV06Ce9O5M2w=</pin>
+            <pin digest="SHA-256">hxqRlPTu1bMS/0DITB1SSu0vd4u/8l8TjPgfaAp63Gc=</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>
